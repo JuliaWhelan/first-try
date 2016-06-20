@@ -14,6 +14,7 @@
 		0B1112641CAE310D0016E491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1112621CAE310D0016E491 /* LaunchScreen.storyboard */; };
 		0B11126F1CAE310D0016E491 /* FirstTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11126E1CAE310D0016E491 /* FirstTryTests.swift */; };
 		0B11127A1CAE310D0016E491 /* FirstTryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1112791CAE310D0016E491 /* FirstTryUITests.swift */; };
+		0B70F8C41CB99D5000D6564D /* LTNolaArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B70F8C31CB99D5000D6564D /* LTNolaArtwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0B1112751CAE310D0016E491 /* FirstTryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1112791CAE310D0016E491 /* FirstTryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTryUITests.swift; sourceTree = "<group>"; };
 		0B11127B1CAE310D0016E491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B70F8C31CB99D5000D6564D /* LTNolaArtwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTNolaArtwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0B11124D1CAE310D0016E491 = {
 			isa = PBXGroup;
 			children = (
+				0B70F8C31CB99D5000D6564D /* LTNolaArtwork.swift */,
 				0B1112581CAE310D0016E491 /* FirstTry */,
 				0B11126D1CAE310D0016E491 /* FirstTryTests */,
 				0B1112781CAE310D0016E491 /* FirstTryUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				0B11125C1CAE310D0016E491 /* ViewController.swift in Sources */,
 				0B11125A1CAE310D0016E491 /* AppDelegate.swift in Sources */,
+				0B70F8C41CB99D5000D6564D /* LTNolaArtwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				0B1112801CAE310D0016E491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B1112811CAE310D0016E491 /* Build configuration list for PBXNativeTarget "FirstTryTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				0B1112831CAE310D0016E491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B1112841CAE310D0016E491 /* Build configuration list for PBXNativeTarget "FirstTryUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				0B1112861CAE310D0016E491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
